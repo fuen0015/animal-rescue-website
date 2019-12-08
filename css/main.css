@@ -1,0 +1,63 @@
+html {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.logo {
+  width: 100px;
+}
+
+.banner-content {
+  min-height: 600px;
+  background-image: url("../images/banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-text {
+  color: #c3c1c2;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+}
+
+i {
+  color: #fff;
+}
+
+main {
+  color: #fff;
+  background-color: #FFA91F;
+}
+
+label {
+  display: block;
+}
+
+.card-image {
+  width: 100%;
+  padding: 0;
+}
+
+.btn {
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+}
+
+.btn-ghost:hover {
+  color: #fff;
+  background-color: #FFA91F;
+  border-color: #FFA91F;
+}
+
+.card {
+  border: solid 3px #C9C8C8;
+}
