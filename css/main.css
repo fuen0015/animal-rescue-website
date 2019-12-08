@@ -61,3 +61,7 @@ label {
 .card {
   border: solid 3px #C9C8C8;
 }
+
+ol {
+  list-style-type: none;
+}
