@@ -11,14 +11,19 @@
   <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
 </head>
 <body>
+  <ul class="skip-links">
+    <li><a href="#nav">skip to navigation</a></li>
+    <li><a href="#main">skip to main</a></li>
+  </ul>
+
   <header>
     <div class="grid gutter pad-t pad-b">
       <div class="unit xs-1-3 s-1-3 m-1-3 l-1-4">
-        <a href="index.html"><img class="logo" src="images/tri-county-animal-rescue-logo.svg" alt=""></a>
+        <a href="index.html"><img class="logo" src="images/tri-county-animal-rescue-logo.svg" alt="Tri County Animal Rescue Logo"></a>
       </div>
-      <nav class="nav unit xs-2-3 s-2-3 m-2-3 l-3-4 pad-t">
+      <nav role="navigation" id="nav" class="nav unit xs-2-3 s-2-3 m-2-3 l-3-4 pad-t">
         <ul class="list-group-inline text-right push-0">
-          <li class="gutter"><a href="#"></a>Donate</li>
+          <li class="gutter"><a href="donate.html"></a>Donate</li>
           <li class="gutter"><a href="adopt.html">Adopt</a></li>
           <li class="gutter"><a href="rescues.html">Rescues</a></li>
           <li class="gutter"><a href="contact.html">Contact</a></li>
@@ -33,7 +38,7 @@
     </div>
   </div>
 
-  <main>
+  <main role="main" id="main">
     <section>
       <div class="gutter-2 pad-t">
         <h2>Misson Statement</h2>
@@ -92,8 +97,8 @@
     </div>
 
     <div class="unit xs-1-2 m-1-2 l-1-2 footer-icons text-center">
-      <a href="#">
-        <i class="icon i-24 facebook"></i>
+      <a href="">
+        <i class="icon i-24 facebook">Facebook L</i>
         <svg><use xlink:href="images/social-media-icons.svg#facebook"/></svg>
       </a>
       <a href="#">
