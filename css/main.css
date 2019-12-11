@@ -29,12 +29,16 @@ h1 {
 }
 
 i {
-  color: #fff;
+  color: #000;
 }
 
 main {
-  color: #fff;
+  color: #000;
   background-color: #ffA91f;
+}
+
+.cards {
+  background-color: #fff;
 }
 
 label {
@@ -59,9 +63,44 @@ label {
 }
 
 .card {
-  border: solid 3px #C9C8C8;
+  border: solid 3px #c9c8c8;
+  color: #000;
 }
 
 ol {
   list-style-type: none;
+}
+
+.embed {
+  position: relative;
+}
+
+.embed-1by1 {
+  padding-top: 100%;
+}
+
+.embed-item {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+}
+
+.facebook,
+.twitter,
+.instagram,
+.snapchat,
+.youtube {
+  color: #fff;
+}
+
+svg {
+  width: 50px;
+  height: auto;
 }
