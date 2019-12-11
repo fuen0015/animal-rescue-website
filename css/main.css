@@ -34,7 +34,10 @@ i {
 
 main {
   color: #000;
-  background-color: #ffA91f;
+}
+
+.illustration {
+  background-color: #ffa91f;
 }
 
 .cards {
@@ -58,8 +61,8 @@ label {
 
 .btn-ghost:hover {
   color: #fff;
-  background-color: #ffA91f;
-  border-color: #ffA91f;
+  background-color: #ffa91f;
+  border-color: #ffa91f;
 }
 
 .card {

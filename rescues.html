@@ -11,12 +11,17 @@
   <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
 </head>
 <body>
+  <ul class="skip-links">
+  <li><a href="#nav">skip to navigation</a></li>
+  <li><a href="#main">skip to main</a></li>
+</ul>
+
   <header>
     <div class="grid gutter pad-t pad-b">
       <div class="unit xs-1-3 s-1-3 m-1-3 l-1-4">
         <a href="index.html"><img class="logo" src="images/tri-county-animal-rescue-logo.svg" alt=""></a>
       </div>
-      <nav class="nav unit xs-2-3 s-2-3 m-2-3 l-3-4 pad-t">
+      <nav role="navigation" id="nav" class="nav unit xs-2-3 s-2-3 m-2-3 l-3-4 pad-t">
         <ul class="list-group-inline text-right push-0">
           <li class="gutter"><a href="#"></a>Donate</li>
           <li class="gutter"><a href="adopt.html">Adopt</a></li>
@@ -27,12 +32,13 @@
     </div>
   </header>
 
+<main>
   <section class="gutter text-center">
     <h1>Rescues</h1>
     <p>Tri-County Animal Rescue is home to many cats and dogs just waiting for the right family to come along. We do our very best to provide them all with care and shelter, but you can give them a true home.</p>
   </section>
 
-  <main class="cards">
+  <div class="cards">
     <div class="grid grid-stretch gutter">
       <figure class="unit xs-1 s-1 m-1-2 l-1-2 unit-content-distribute island-1-4 push-1-2 card">
         <div class="content-fill unit-content-distribute island-1-2 embed embed-1by1">
